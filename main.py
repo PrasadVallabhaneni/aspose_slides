@@ -24,4 +24,3 @@ with slides.Presentation(PPTX_PATH) as presentation:
 
     presentation.save(OUTPUT_PATH, slides.export.SaveFormat.PPTX)
 
-print(f"✅ Updated presentation saved as {OUTPUT_PATH}")
